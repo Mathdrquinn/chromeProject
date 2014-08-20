@@ -1,0 +1,82 @@
+body {
+    padding:0;
+    width:300px;
+    margin:0;
+    font-family:'Helvetica', sans-serif;
+}
+
+.profile {
+  border-bottom:1px solid lightgray;
+  padding:3% 6%;
+  text-align:center;
+  background-color:#F8F8F8;
+}
+
+.profilePhoto {
+  width:45%;
+  display:inline-block;
+  height:100%;
+  vertical-align:top;
+  border-radius:7%;
+}
+
+.profile h1 {
+  width:45%;
+  display:inline-block;
+  margin:0;
+  font-size:1.50em;
+  color:#333333;
+  vertical-align:-65px;
+  text-align:left;
+}
+
+.repoTitle {
+  border-bottom:1px solid lightgray;
+  color:#333333;
+  text-align:center;
+  background-color:#E6F1F6;
+}
+
+.repoTitle h2 {
+  margin:0;
+  padding:5% 1%;
+}
+
+.repoContainer {
+  border-bottom:1px solid lightgray;
+  margin:0;
+}
+
+.repos {
+  width:100%;
+  padding-left:3%;
+  margin:0;
+}
+
+.repos a {
+  text-decoration:none;
+  color:#4183C4;
+}
+
+.repos a:hover {
+  text-decoration:underline;
+}
+
+.repos h2 {
+  margin-bottom:2px;
+  font-weight:400;
+}
+
+.repos p {
+  margin-top:10px;
+  font-size:.75em;
+}
+
+.description {
+  font-style:italic;
+  font-size:.75em;
+}
+
+.hide {
+  display:none;
+}
